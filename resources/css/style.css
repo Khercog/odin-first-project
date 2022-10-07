@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'norsebold';
+    background-color: #fff;
+  }
+
+  @font-face {
+    font-family: vikingregular;
+    src: url(viking-font/viking-webfont.woff);
+  }
+
+  @font-face {
+    font-family: norsebold;
+    src: url(norsebold-font/norsebold-webfont.woff);
+  }
+
+  header>ul {
+    height: min-content;
+  }
+
+
+
+  iframe {
+    max-width: 560px !important;
+  }
+
+  .grow:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+
+  .recipe-size {
+    max-width: 474px;
+  }
