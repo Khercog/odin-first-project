@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'vikingregular';
-    src: url('viking-webfont.woff2') format('woff2'),
-         url('viking-webfont.woff') format('woff');
+    src: url('../viking-font/viking-webfont.woff2') format('woff2'),
+         url('../viking-font/viking-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

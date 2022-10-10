@@ -6,20 +6,32 @@ body {
   }
 
   @font-face {
-    font-family: vikingregular;
-    src: url(viking-font/viking-webfont.woff);
+    font-family: 'vikingregular';
+    src: url('../fonts/viking-font/viking-webfont.woff') format('woff');
   }
 
   @font-face {
-    font-family: norsebold;
-    src: url(norsebold-font/norsebold-webfont.woff);
+    font-family: 'norsebold';
+    src: url('../fonts/norsebold-font/norsebold-webfont.woff') format('woff');
   }
+
+
 
   header>ul {
     height: min-content;
   }
 
 
+  .no-deco {
+    text-decoration: none;
+    color: black;
+  }
+
+  .no-overflow {
+    position: relative;
+    overflow: hidden;    
+   
+  }
 
   iframe {
     max-width: 560px !important;
